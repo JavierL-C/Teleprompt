@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04601B1F2A30AE73008B13AC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04601B1E2A30AE73008B13AC /* Coordinator.swift */; };
+		04601B222A30E76D008B13AC /* GeneralInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04601B212A30E76D008B13AC /* GeneralInfoViewModel.swift */; };
 		048C3E8E2A309257008B0BED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C3E8D2A309257008B0BED /* AppDelegate.swift */; };
 		048C3E902A309257008B0BED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C3E8F2A309257008B0BED /* SceneDelegate.swift */; };
-		048C3E922A309257008B0BED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C3E912A309257008B0BED /* ViewController.swift */; };
+		048C3E922A309257008B0BED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C3E912A309257008B0BED /* MainViewController.swift */; };
 		048C3E952A309257008B0BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C3E932A309257008B0BED /* Main.storyboard */; };
-		048C3E982A309257008B0BED /* Poker_Tutorials_and_Practice_Exercises.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048C3E962A309257008B0BED /* Poker_Tutorials_and_Practice_Exercises.xcdatamodeld */; };
+		048C3E982A309257008B0BED /* Venuedock in Sources */ = {isa = PBXBuildFile; fileRef = 048C3E962A309257008B0BED /* Venuedock */; };
 		048C3E9A2A309259008B0BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048C3E992A309259008B0BED /* Assets.xcassets */; };
 		048C3E9D2A309259008B0BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C3E9B2A309259008B0BED /* LaunchScreen.storyboard */; };
+		048C3EBE2A3094A2008B0BED /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C3EBD2A3094A2008B0BED /* UIButtonExtension.swift */; };
+		04A9A7E32A31C95A00EEDED5 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9A7E22A31C95A00EEDED5 /* ApiClient.swift */; };
+		04D52A8D2A333876007B5F35 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52A8C2A333876007B5F35 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		048C3E8A2A309256008B0BED /* Poker Tutorials and Practice Exercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poker Tutorials and Practice Exercises.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04601B1E2A30AE73008B13AC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		04601B212A30E76D008B13AC /* GeneralInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoViewModel.swift; sourceTree = "<group>"; };
+		048C3E8A2A309256008B0BED /* Venuedock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venuedock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048C3E8D2A309257008B0BED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048C3E8F2A309257008B0BED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		048C3E912A309257008B0BED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		048C3E912A309257008B0BED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		048C3E942A309257008B0BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048C3E972A309257008B0BED /* Poker_Tutorials_and_Practice_Exercises.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Poker_Tutorials_and_Practice_Exercises.xcdatamodel; sourceTree = "<group>"; };
 		048C3E992A309259008B0BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048C3E9C2A309259008B0BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048C3E9E2A309259008B0BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048C3EBD2A3094A2008B0BED /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		04A9A7E22A31C95A00EEDED5 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		04D52A8C2A333876007B5F35 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,10 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04601B1D2A30A86D008B13AC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				04601B1E2A30AE73008B13AC /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		048C3E812A309256008B0BED = {
 			isa = PBXGroup;
 			children = (
-				048C3E8C2A309256008B0BED /* Poker Tutorials and Practice Exercises */,
+				048C3E8C2A309256008B0BED /* Venuedock */,
 				048C3E8B2A309256008B0BED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,32 +68,173 @@
 		048C3E8B2A309256008B0BED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				048C3E8A2A309256008B0BED /* Poker Tutorials and Practice Exercises.app */,
+				048C3E8A2A309256008B0BED /* Venuedock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		048C3E8C2A309256008B0BED /* Poker Tutorials and Practice Exercises */ = {
+		048C3E8C2A309256008B0BED /* Venuedock */ = {
+			isa = PBXGroup;
+			children = (
+				048C3EBA2A309416008B0BED /* Application */,
+				048C3EAE2A309338008B0BED /* CoreData */,
+				048C3EAB2A3092F7008B0BED /* Resources */,
+				048C3EAA2A3092ED008B0BED /* Enums */,
+				048C3EA92A3092E2008B0BED /* Helpers */,
+				048C3EA82A3092D7008B0BED /* Services */,
+				048C3EA72A3092C9008B0BED /* ViewControllers */,
+				048C3EA62A3092BE008B0BED /* Views */,
+				048C3EA52A3092B6008B0BED /* ViewModels */,
+				048C3EA42A3092B1008B0BED /* Models */,
+				048C3E9E2A309259008B0BED /* Info.plist */,
+			);
+			path = Venuedock;
+			sourceTree = "<group>";
+		};
+		048C3EA42A3092B1008B0BED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		048C3EA52A3092B6008B0BED /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				04601B212A30E76D008B13AC /* GeneralInfoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		048C3EA62A3092BE008B0BED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				048C3EAD2A309313008B0BED /* UI */,
+				048C3EAC2A309303008B0BED /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		048C3EA72A3092C9008B0BED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				048C3EAF2A309366008B0BED /* Main */,
+				048C3E912A309257008B0BED /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		048C3EA82A3092D7008B0BED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04A9A7E22A31C95A00EEDED5 /* ApiClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		048C3EA92A3092E2008B0BED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04D52A8B2A333866007B5F35 /* Reachability */,
+				04601B1D2A30A86D008B13AC /* Coordinator */,
+				048C3EBC2A30944C008B0BED /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		048C3EAA2A3092ED008B0BED /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		048C3EAB2A3092F7008B0BED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				048C3E992A309259008B0BED /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		048C3EAC2A309303008B0BED /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				048C3EB92A3093EF008B0BED /* Launch */,
+				048C3EB42A3093E8008B0BED /* Main */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		048C3EAD2A309313008B0BED /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		048C3EAE2A309338008B0BED /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				048C3E962A309257008B0BED /* Venuedock */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		048C3EAF2A309366008B0BED /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		048C3EB42A3093E8008B0BED /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				048C3E932A309257008B0BED /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		048C3EB92A3093EF008B0BED /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				048C3E9B2A309259008B0BED /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		048C3EBA2A309416008B0BED /* Application */ = {
 			isa = PBXGroup;
 			children = (
 				048C3E8D2A309257008B0BED /* AppDelegate.swift */,
 				048C3E8F2A309257008B0BED /* SceneDelegate.swift */,
-				048C3E912A309257008B0BED /* ViewController.swift */,
-				048C3E932A309257008B0BED /* Main.storyboard */,
-				048C3E992A309259008B0BED /* Assets.xcassets */,
-				048C3E9B2A309259008B0BED /* LaunchScreen.storyboard */,
-				048C3E9E2A309259008B0BED /* Info.plist */,
-				048C3E962A309257008B0BED /* Poker_Tutorials_and_Practice_Exercises.xcdatamodeld */,
 			);
-			path = "Poker Tutorials and Practice Exercises";
+			path = Application;
+			sourceTree = "<group>";
+		};
+		048C3EBC2A30944C008B0BED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				048C3EBD2A3094A2008B0BED /* UIButtonExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04D52A8B2A333866007B5F35 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				04D52A8C2A333876007B5F35 /* Reachability.swift */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		048C3E892A309256008B0BED /* Poker Tutorials and Practice Exercises */ = {
+		048C3E892A309256008B0BED /* Venuedock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048C3EA12A309259008B0BED /* Build configuration list for PBXNativeTarget "Poker Tutorials and Practice Exercises" */;
+			buildConfigurationList = 048C3EA12A309259008B0BED /* Build configuration list for PBXNativeTarget "Venuedock" */;
 			buildPhases = (
 				048C3E862A309256008B0BED /* Sources */,
 				048C3E872A309256008B0BED /* Frameworks */,
@@ -85,9 +244,9 @@
 			);
 			dependencies = (
 			);
-			name = "Poker Tutorials and Practice Exercises";
+			name = Venuedock;
 			productName = "Poker Tutorials and Practice Exercises";
-			productReference = 048C3E8A2A309256008B0BED /* Poker Tutorials and Practice Exercises.app */;
+			productReference = 048C3E8A2A309256008B0BED /* Venuedock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 048C3E852A309256008B0BED /* Build configuration list for PBXProject "Poker Tutorials and Practice Exercises" */;
+			buildConfigurationList = 048C3E852A309256008B0BED /* Build configuration list for PBXProject "Venuedock" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +277,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				048C3E892A309256008B0BED /* Poker Tutorials and Practice Exercises */,
+				048C3E892A309256008B0BED /* Venuedock */,
 			);
 		};
 /* End PBXProject section */
@@ -141,10 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048C3E982A309257008B0BED /* Poker_Tutorials_and_Practice_Exercises.xcdatamodeld in Sources */,
-				048C3E922A309257008B0BED /* ViewController.swift in Sources */,
+				048C3E982A309257008B0BED /* Venuedock in Sources */,
+				04D52A8D2A333876007B5F35 /* Reachability.swift in Sources */,
+				048C3EBE2A3094A2008B0BED /* UIButtonExtension.swift in Sources */,
+				04601B222A30E76D008B13AC /* GeneralInfoViewModel.swift in Sources */,
+				048C3E922A309257008B0BED /* MainViewController.swift in Sources */,
 				048C3E8E2A309257008B0BED /* AppDelegate.swift in Sources */,
 				048C3E902A309257008B0BED /* SceneDelegate.swift in Sources */,
+				04601B1F2A30AE73008B13AC /* Coordinator.swift in Sources */,
+				04A9A7E32A31C95A00EEDED5 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,22 +456,27 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Poker Tutorials and Practice Exercises/Info.plist";
+				INFOPLIST_FILE = Venuedock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Venuedock;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com2.Poker-Tutorials-and-Practice-Exercises";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Venuedock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,29 +488,34 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Poker Tutorials and Practice Exercises/Info.plist";
+				INFOPLIST_FILE = Venuedock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Venuedock;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com2.Poker-Tutorials-and-Practice-Exercises";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Venuedock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		048C3E852A309256008B0BED /* Build configuration list for PBXProject "Poker Tutorials and Practice Exercises" */ = {
+		048C3E852A309256008B0BED /* Build configuration list for PBXProject "Venuedock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048C3E9F2A309259008B0BED /* Debug */,
@@ -350,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048C3EA12A309259008B0BED /* Build configuration list for PBXNativeTarget "Poker Tutorials and Practice Exercises" */ = {
+		048C3EA12A309259008B0BED /* Build configuration list for PBXNativeTarget "Venuedock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048C3EA22A309259008B0BED /* Debug */,
@@ -362,13 +536,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		048C3E962A309257008B0BED /* Poker_Tutorials_and_Practice_Exercises.xcdatamodeld */ = {
+		048C3E962A309257008B0BED /* Venuedock */ = {
 			isa = XCVersionGroup;
 			children = (
 				048C3E972A309257008B0BED /* Poker_Tutorials_and_Practice_Exercises.xcdatamodel */,
 			);
 			currentVersion = 048C3E972A309257008B0BED /* Poker_Tutorials_and_Practice_Exercises.xcdatamodel */;
-			path = Poker_Tutorials_and_Practice_Exercises.xcdatamodeld;
+			path = Venuedock;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
