@@ -7,15 +7,42 @@
 
 import UIKit
 
+
 extension UIButton {
-    func makeCircularWithLargeTitle() {
-        self.layer.cornerRadius = self.bounds.height / 2
-        self.titleLabel?.font = UIFont.systemFont(ofSize: 15, weight: .bold)
-        self.titleLabel?.adjustsFontSizeToFitWidth = true
-        self.titleLabel?.minimumScaleFactor = 0.5
-        self.titleLabel?.numberOfLines = 0
-        self.titleLabel?.textAlignment = .center
-        self.backgroundColor = .yellow
-        self.tintColor = .black
+    @IBInspectable var borderWidth: CGFloat {
+        get {
+            return layer.borderWidth
+        }
+        set {
+            layer.borderWidth = newValue
+        }
+    }
+    
+    @IBInspectable var borderColor: UIColor? {
+        get {
+            return layer.borderColor.map { UIColor(cgColor: $0) }
+        }
+        set {
+            layer.borderColor = newValue?.cgColor
+        }
+    }
+    
+    @IBInspectable var cornerRadius: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = newValue
+            layer.masksToBounds = newValue > 0
+        }
+    }
+    
+    @IBInspectable var backgroundColorForButton: UIColor? {
+        get {
+            return backgroundColor
+        }
+        set {
+            backgroundColor = newValue
+        }
     }
 }

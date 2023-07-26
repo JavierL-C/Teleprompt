@@ -13,29 +13,46 @@
 		048C3E902A309257008B0BED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C3E8F2A309257008B0BED /* SceneDelegate.swift */; };
 		048C3E922A309257008B0BED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C3E912A309257008B0BED /* MainViewController.swift */; };
 		048C3E952A309257008B0BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C3E932A309257008B0BED /* Main.storyboard */; };
-		048C3E982A309257008B0BED /* Venuedock in Sources */ = {isa = PBXBuildFile; fileRef = 048C3E962A309257008B0BED /* Venuedock */; };
 		048C3E9A2A309259008B0BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048C3E992A309259008B0BED /* Assets.xcassets */; };
 		048C3E9D2A309259008B0BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048C3E9B2A309259008B0BED /* LaunchScreen.storyboard */; };
 		048C3EBE2A3094A2008B0BED /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C3EBD2A3094A2008B0BED /* UIButtonExtension.swift */; };
 		04A9A7E32A31C95A00EEDED5 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9A7E22A31C95A00EEDED5 /* ApiClient.swift */; };
+		04CF01FE2A385F4500E8481D /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF01FD2A385F4500E8481D /* AuthManager.swift */; };
+		04CF02002A38610F00E8481D /* AuthanticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF01FF2A38610F00E8481D /* AuthanticationViewController.swift */; };
+		04CF02082A3890D700E8481D /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF02072A3890D700E8481D /* TokenModel.swift */; };
 		04D52A8D2A333876007B5F35 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52A8C2A333876007B5F35 /* Reachability.swift */; };
+		04F5ACFD2A39146D00185808 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5ACFC2A39146D00185808 /* DashboardViewController.swift */; };
+		04F5ACFF2A39147800185808 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5ACFE2A39147800185808 /* Dashboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04601B1E2A30AE73008B13AC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		04601B212A30E76D008B13AC /* GeneralInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoViewModel.swift; sourceTree = "<group>"; };
-		048C3E8A2A309256008B0BED /* Venuedock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venuedock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048C3E8A2A309256008B0BED /* Teleprompt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teleprompt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048C3E8D2A309257008B0BED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048C3E8F2A309257008B0BED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		048C3E912A309257008B0BED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		048C3E942A309257008B0BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		048C3E972A309257008B0BED /* Poker_Tutorials_and_Practice_Exercises.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Poker_Tutorials_and_Practice_Exercises.xcdatamodel; sourceTree = "<group>"; };
 		048C3E992A309259008B0BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048C3E9C2A309259008B0BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048C3E9E2A309259008B0BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048C3EBD2A3094A2008B0BED /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		04A9A7E22A31C95A00EEDED5 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		04CF01FD2A385F4500E8481D /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		04CF01FF2A38610F00E8481D /* AuthanticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthanticationViewController.swift; sourceTree = "<group>"; };
+		04CF02072A3890D700E8481D /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
 		04D52A8C2A333876007B5F35 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		04F5ACFC2A39146D00185808 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		04F5ACFE2A39147800185808 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		04F5AD012A39198B00185808 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		04F5AD022A39198B00185808 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		04F5AD032A39198B00185808 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		04F5AD042A39198B00185808 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		04F5AD052A39198B00185808 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		04F5AD062A39198B00185808 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		04F5AD072A39198B00185808 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		04F5AD082A39198C00185808 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		04F5AD092A39198C00185808 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +85,7 @@
 		048C3E8B2A309256008B0BED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				048C3E8A2A309256008B0BED /* Venuedock.app */,
+				048C3E8A2A309256008B0BED /* Teleprompt.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +111,7 @@
 		048C3EA42A3092B1008B0BED /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04CF02072A3890D700E8481D /* TokenModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -118,8 +136,10 @@
 		048C3EA72A3092C9008B0BED /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				04F5ACFA2A38DC9900185808 /* Dashboard */,
 				048C3EAF2A309366008B0BED /* Main */,
 				048C3E912A309257008B0BED /* MainViewController.swift */,
+				04CF01FF2A38610F00E8481D /* AuthanticationViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -128,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				04A9A7E22A31C95A00EEDED5 /* ApiClient.swift */,
+				04CF01FD2A385F4500E8481D /* AuthManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -152,6 +173,7 @@
 		048C3EAB2A3092F7008B0BED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04F5AD002A39198200185808 /* Fonts */,
 				048C3E992A309259008B0BED /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -160,6 +182,7 @@
 		048C3EAC2A309303008B0BED /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				04F5ACFB2A38DCA500185808 /* Dashboard */,
 				048C3EB92A3093EF008B0BED /* Launch */,
 				048C3EB42A3093E8008B0BED /* Main */,
 			);
@@ -176,7 +199,6 @@
 		048C3EAE2A309338008B0BED /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				048C3E962A309257008B0BED /* Venuedock */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -229,12 +251,44 @@
 			path = Reachability;
 			sourceTree = "<group>";
 		};
+		04F5ACFA2A38DC9900185808 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				04F5ACFC2A39146D00185808 /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		04F5ACFB2A38DCA500185808 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				04F5ACFE2A39147800185808 /* Dashboard.storyboard */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		04F5AD002A39198200185808 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04F5AD022A39198B00185808 /* Inter-Black.ttf */,
+				04F5AD082A39198C00185808 /* Inter-Bold.ttf */,
+				04F5AD032A39198B00185808 /* Inter-ExtraBold.ttf */,
+				04F5AD052A39198B00185808 /* Inter-ExtraLight.ttf */,
+				04F5AD092A39198C00185808 /* Inter-Light.ttf */,
+				04F5AD012A39198B00185808 /* Inter-Medium.ttf */,
+				04F5AD042A39198B00185808 /* Inter-Regular.ttf */,
+				04F5AD062A39198B00185808 /* Inter-SemiBold.ttf */,
+				04F5AD072A39198B00185808 /* Inter-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		048C3E892A309256008B0BED /* Venuedock */ = {
+		048C3E892A309256008B0BED /* Teleprompt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048C3EA12A309259008B0BED /* Build configuration list for PBXNativeTarget "Venuedock" */;
+			buildConfigurationList = 048C3EA12A309259008B0BED /* Build configuration list for PBXNativeTarget "Teleprompt" */;
 			buildPhases = (
 				048C3E862A309256008B0BED /* Sources */,
 				048C3E872A309256008B0BED /* Frameworks */,
@@ -244,9 +298,9 @@
 			);
 			dependencies = (
 			);
-			name = Venuedock;
+			name = Teleprompt;
 			productName = "Poker Tutorials and Practice Exercises";
-			productReference = 048C3E8A2A309256008B0BED /* Venuedock.app */;
+			productReference = 048C3E8A2A309256008B0BED /* Teleprompt.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +318,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 048C3E852A309256008B0BED /* Build configuration list for PBXProject "Venuedock" */;
+			buildConfigurationList = 048C3E852A309256008B0BED /* Build configuration list for PBXProject "Teleprompt" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -277,7 +331,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				048C3E892A309256008B0BED /* Venuedock */,
+				048C3E892A309256008B0BED /* Teleprompt */,
 			);
 		};
 /* End PBXProject section */
@@ -290,6 +344,7 @@
 				048C3E9D2A309259008B0BED /* LaunchScreen.storyboard in Resources */,
 				048C3E9A2A309259008B0BED /* Assets.xcassets in Resources */,
 				048C3E952A309257008B0BED /* Main.storyboard in Resources */,
+				04F5ACFF2A39147800185808 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,11 +355,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048C3E982A309257008B0BED /* Venuedock in Sources */,
+				04CF02002A38610F00E8481D /* AuthanticationViewController.swift in Sources */,
+				04CF02082A3890D700E8481D /* TokenModel.swift in Sources */,
 				04D52A8D2A333876007B5F35 /* Reachability.swift in Sources */,
+				04CF01FE2A385F4500E8481D /* AuthManager.swift in Sources */,
 				048C3EBE2A3094A2008B0BED /* UIButtonExtension.swift in Sources */,
 				04601B222A30E76D008B13AC /* GeneralInfoViewModel.swift in Sources */,
 				048C3E922A309257008B0BED /* MainViewController.swift in Sources */,
+				04F5ACFD2A39146D00185808 /* DashboardViewController.swift in Sources */,
 				048C3E8E2A309257008B0BED /* AppDelegate.swift in Sources */,
 				048C3E902A309257008B0BED /* SceneDelegate.swift in Sources */,
 				04601B1F2A30AE73008B13AC /* Coordinator.swift in Sources */,
@@ -455,20 +513,25 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Venuedock",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Venuedock/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Venuedock;
+				INFOPLIST_KEY_CFBundleDisplayName = Teleprompt;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Venuedock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -487,20 +550,25 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Venuedock",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Venuedock/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Venuedock;
+				INFOPLIST_KEY_CFBundleDisplayName = Teleprompt;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Venuedock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -515,7 +583,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		048C3E852A309256008B0BED /* Build configuration list for PBXProject "Venuedock" */ = {
+		048C3E852A309256008B0BED /* Build configuration list for PBXProject "Teleprompt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048C3E9F2A309259008B0BED /* Debug */,
@@ -524,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048C3EA12A309259008B0BED /* Build configuration list for PBXNativeTarget "Venuedock" */ = {
+		048C3EA12A309259008B0BED /* Build configuration list for PBXNativeTarget "Teleprompt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048C3EA22A309259008B0BED /* Debug */,
@@ -534,19 +602,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		048C3E962A309257008B0BED /* Venuedock */ = {
-			isa = XCVersionGroup;
-			children = (
-				048C3E972A309257008B0BED /* Poker_Tutorials_and_Practice_Exercises.xcdatamodel */,
-			);
-			currentVersion = 048C3E972A309257008B0BED /* Poker_Tutorials_and_Practice_Exercises.xcdatamodel */;
-			path = Venuedock;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 048C3E822A309256008B0BED /* Project object */;
 }

@@ -2,7 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Inter-Black</string>
+		<string>Inter-Bold</string>
+		<string>Inter-ExtraBold</string>
+		<string>Inter-ExtraLight</string>
+		<string>Inter-Light</string>
+		<string>Inter-Medium</string>
+		<string>Inter-Regular</string>
+		<string>Inter-Thin</string>
+		<string>Inter-SemiBold</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>spotify</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.Venuedock</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>http://Auscultator/</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

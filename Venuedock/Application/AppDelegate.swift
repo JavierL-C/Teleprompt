@@ -23,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         coordinator = MainCoordinator(navigationController: navigationController)
-        coordinator?.start()
         
+        coordinator?.start()
         return true
     }
   

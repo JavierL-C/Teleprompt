@@ -14,6 +14,7 @@ protocol Coordinator: AnyObject {
     func navigateToViewController(_ viewController: UIViewController)
     func presentViewController(_ viewController: UIViewController)
     func dismissViewController()
+    func popMeToRootViewController()
 }
 
 
@@ -40,7 +41,10 @@ class MainCoordinator:Coordinator {
         navigationController.dismiss(animated: true, completion: nil)
 
     }
-    
+    func popMeToRootViewController() {
+        navigationController.popToRootViewController(animated: true)
+
+    }
     
     private let navigationController:UINavigationController
     
