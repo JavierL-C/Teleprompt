@@ -77,7 +77,7 @@
 		048C3E812A309256008B0BED = {
 			isa = PBXGroup;
 			children = (
-				048C3E8C2A309256008B0BED /* Venuedock */,
+				048C3E8C2A309256008B0BED /* Teleprompt */,
 				048C3E8B2A309256008B0BED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		048C3E8C2A309256008B0BED /* Venuedock */ = {
+		048C3E8C2A309256008B0BED /* Teleprompt */ = {
 			isa = PBXGroup;
 			children = (
 				048C3EBA2A309416008B0BED /* Application */,
@@ -105,7 +105,7 @@
 				048C3EA42A3092B1008B0BED /* Models */,
 				048C3E9E2A309259008B0BED /* Info.plist */,
 			);
-			path = Venuedock;
+			path = Teleprompt;
 			sourceTree = "<group>";
 		};
 		048C3EA42A3092B1008B0BED /* Models */ = {
