@@ -1,0 +1,68 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+*.xcodeproj/*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.xcconfig
+
+# Swift Package Manager
+/.build/
+/Packages/
+/*.xcodeproj/
+
+# CocoaPods
+/Pods/
+*.lock
+/xcuserdata/
+**/*/Pods*
+**/*/*.xcworkspace*
+
+# Carthage
+/Carthage/Build/
+/Carthage/Checkouts/
+
+# Sensitive or environment-specific files
+*.xcconfig
+*.env
+
+# Compiled source
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+
+# Generated files
+*.hmap
+*.cpp
+
+# Xcode Schemes
+*.xcscheme
+*.xccheckout
+
+# Playgrounds
+*.playground
+
+# Private keys
+*.pem
+
+# Fastlane
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots
+
+# CocoaPods
+/Pods/
+# Uncomment the next line if you're not using Swift and don't want to commit your config files.
+# /Pods/Target Support Files/
+/Podfile.lock
+
+# Carthage
+/Carthage/Build/
+
+# Accidentally included files
+.DS_Store
+*.swp
+*.lock
+Thumbs.db
