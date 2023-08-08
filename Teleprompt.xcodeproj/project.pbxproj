@@ -23,6 +23,10 @@
 		04D52A8D2A333876007B5F35 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52A8C2A333876007B5F35 /* Reachability.swift */; };
 		04F5ACFD2A39146D00185808 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5ACFC2A39146D00185808 /* DashboardViewController.swift */; };
 		04F5ACFF2A39147800185808 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5ACFE2A39147800185808 /* Dashboard.storyboard */; };
+		554863DD2A7305B90022CD4F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554863DC2A7305B90022CD4F /* LoginViewController.swift */; };
+		554863DF2A73091B0022CD4F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554863DE2A73091B0022CD4F /* LoginViewModel.swift */; };
+		554863E22A73101E0022CD4F /* LoginFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554863E12A73101E0022CD4F /* LoginFactory.swift */; };
+		554863E42A7338740022CD4F /* PersonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554863E32A7338740022CD4F /* PersonCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +57,10 @@
 		04F5AD072A39198B00185808 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
 		04F5AD082A39198C00185808 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
 		04F5AD092A39198C00185808 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		554863DC2A7305B90022CD4F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		554863DE2A73091B0022CD4F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		554863E12A73101E0022CD4F /* LoginFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFactory.swift; sourceTree = "<group>"; };
+		554863E32A7338740022CD4F /* PersonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				04601B212A30E76D008B13AC /* GeneralInfoViewModel.swift */,
+				554863DE2A73091B0022CD4F /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -136,9 +145,9 @@
 		048C3EA72A3092C9008B0BED /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				554863E02A730FEA0022CD4F /* Login */,
 				04F5ACFA2A38DC9900185808 /* Dashboard */,
 				048C3EAF2A309366008B0BED /* Main */,
-				048C3E912A309257008B0BED /* MainViewController.swift */,
 				04CF01FF2A38610F00E8481D /* AuthanticationViewController.swift */,
 			);
 			path = ViewControllers;
@@ -206,6 +215,7 @@
 		048C3EAF2A309366008B0BED /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				048C3E912A309257008B0BED /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -281,6 +291,16 @@
 				04F5AD072A39198B00185808 /* Inter-Thin.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		554863E02A730FEA0022CD4F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				554863DC2A7305B90022CD4F /* LoginViewController.swift */,
+				554863E12A73101E0022CD4F /* LoginFactory.swift */,
+				554863E32A7338740022CD4F /* PersonCollectionViewCell.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,12 +381,16 @@
 				04CF01FE2A385F4500E8481D /* AuthManager.swift in Sources */,
 				048C3EBE2A3094A2008B0BED /* UIButtonExtension.swift in Sources */,
 				04601B222A30E76D008B13AC /* GeneralInfoViewModel.swift in Sources */,
+				554863DF2A73091B0022CD4F /* LoginViewModel.swift in Sources */,
+				554863E42A7338740022CD4F /* PersonCollectionViewCell.swift in Sources */,
 				048C3E922A309257008B0BED /* MainViewController.swift in Sources */,
 				04F5ACFD2A39146D00185808 /* DashboardViewController.swift in Sources */,
 				048C3E8E2A309257008B0BED /* AppDelegate.swift in Sources */,
 				048C3E902A309257008B0BED /* SceneDelegate.swift in Sources */,
 				04601B1F2A30AE73008B13AC /* Coordinator.swift in Sources */,
+				554863DD2A7305B90022CD4F /* LoginViewController.swift in Sources */,
 				04A9A7E32A31C95A00EEDED5 /* ApiClient.swift in Sources */,
+				554863E22A73101E0022CD4F /* LoginFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,10 +539,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Venuedock",
+					"$(PROJECT_DIR)/",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Venuedock/Info.plist;
+				INFOPLIST_FILE = Teleprompt/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Teleprompt;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
@@ -532,7 +556,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Venuedock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Teleprompt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -552,10 +576,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Venuedock",
+					"$(PROJECT_DIR)/",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Venuedock/Info.plist;
+				INFOPLIST_FILE = Teleprompt/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Teleprompt;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
@@ -569,7 +593,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Venuedock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Teleprompt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

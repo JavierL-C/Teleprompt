@@ -21,10 +21,13 @@ protocol Coordinator: AnyObject {
 
 class MainCoordinator:Coordinator {
     func start() {
-        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainViewController") as? MainViewController {
-            viewController.coordinator = self
-            navigationController.pushViewController(viewController, animated: true)
-        }
+        let viewController = viewControllerFactory.makeLoginViewController()
+        viewController.delegate = self
+        navigationController.pushViewController(viewController, animated: true)
+//        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainViewController") as? MainViewController {
+//            viewController.coordinator = self
+//            navigationController.pushViewController(viewController, animated: true)
+//        }
     }
     
     func navigateToViewController(_ viewController: UIViewController) {
@@ -47,9 +50,11 @@ class MainCoordinator:Coordinator {
     }
     
     private let navigationController:UINavigationController
+    private let viewControllerFactory: LoginFactoryProtocol
     
     init(navigationController:UINavigationController) {
         self.navigationController = navigationController
+        self.viewControllerFactory = LoginFactory()
     }
     
     

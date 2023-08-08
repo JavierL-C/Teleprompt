@@ -26,11 +26,11 @@ class AuthanticationViewController: UIViewController {
         // Do any additional setup after loading the view.
         webView.navigationDelegate = self
         view.addSubview(webView)
-        guard let url = AuthManager.shared.signInURL else {
-            return
-        }
+//        guard let url = AuthManager.shared.signInURL else {
+//            return
+//        }
         
-        webView.load(URLRequest(url:url))
+//        webView.load(URLRequest(url:url))
     }
     
     override func viewDidLayoutSubviews() {
@@ -49,13 +49,13 @@ extension AuthanticationViewController:WKNavigationDelegate {
             return
         }
         DispatchQueue.main.async {
-            AuthManager.shared.exchangeCodeForToken(code: code) {[weak self] success in
-                DispatchQueue.main.async {
-                    
-                    self?.coordinator?.popMeToRootViewController()
-                    self?.completionHandler!(success)
-                }
-            }
+//            AuthManager.shared.exchangeCodeForToken(code: code) {[weak self] success in
+//                DispatchQueue.main.async {
+//
+//                    self?.coordinator?.popMeToRootViewController()
+//                    self?.completionHandler!(success)
+//                }
+//            }
             
         }
         
