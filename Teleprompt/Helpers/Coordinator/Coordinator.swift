@@ -9,53 +9,29 @@ import Foundation
 import UIKit
 
 protocol Coordinator: AnyObject {
-    
     func start()
-    func navigateToViewController(_ viewController: UIViewController)
-    func presentViewController(_ viewController: UIViewController)
-    func dismissViewController()
-    func popMeToRootViewController()
 }
 
-
-
-class MainCoordinator:Coordinator {
+class MainCoordinator: Coordinator {
+    
+    private let navigationController:UINavigationController
+    private let coordinatorFactory: CoordinatorFactory
+    
+    init(navigationController:UINavigationController) {
+        self.navigationController = navigationController
+        self.coordinatorFactory = CoordinatorFactory(viewControllerFactory: MainViewControllerFactory())
+    }
+    
     func start() {
-        let viewController = viewControllerFactory.makeLoginViewController()
-        viewController.delegate = self
-        navigationController.pushViewController(viewController, animated: true)
-//        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainViewController") as? MainViewController {
-//            viewController.coordinator = self
-//            navigationController.pushViewController(viewController, animated: true)
-//        }
-    }
-    
-    func navigateToViewController(_ viewController: UIViewController) {
-        navigationController.pushViewController(viewController, animated: true)
-
-    }
-    
-    func presentViewController(_ viewController: UIViewController) {
-        navigationController.present(viewController, animated: true, completion: nil)
-
+        starLoginCoordinator()
     }
     
     func dismissViewController() {
         navigationController.dismiss(animated: true, completion: nil)
-
-    }
-    func popMeToRootViewController() {
-        navigationController.popToRootViewController(animated: true)
-
     }
     
-    private let navigationController:UINavigationController
-    private let viewControllerFactory: LoginFactoryProtocol
-    
-    init(navigationController:UINavigationController) {
-        self.navigationController = navigationController
-        self.viewControllerFactory = LoginFactory()
+    private func starLoginCoordinator() {
+        let coordinator = coordinatorFactory.makeAuthCoordinator(navigationController: navigationController)
+        coordinator.start()
     }
-    
-    
 }

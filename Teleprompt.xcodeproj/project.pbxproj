@@ -18,15 +18,17 @@
 		048C3EBE2A3094A2008B0BED /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C3EBD2A3094A2008B0BED /* UIButtonExtension.swift */; };
 		04A9A7E32A31C95A00EEDED5 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9A7E22A31C95A00EEDED5 /* ApiClient.swift */; };
 		04CF01FE2A385F4500E8481D /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF01FD2A385F4500E8481D /* AuthManager.swift */; };
-		04CF02002A38610F00E8481D /* AuthanticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF01FF2A38610F00E8481D /* AuthanticationViewController.swift */; };
 		04CF02082A3890D700E8481D /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF02072A3890D700E8481D /* TokenModel.swift */; };
 		04D52A8D2A333876007B5F35 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D52A8C2A333876007B5F35 /* Reachability.swift */; };
 		04F5ACFD2A39146D00185808 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5ACFC2A39146D00185808 /* DashboardViewController.swift */; };
 		04F5ACFF2A39147800185808 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F5ACFE2A39147800185808 /* Dashboard.storyboard */; };
 		554863DD2A7305B90022CD4F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554863DC2A7305B90022CD4F /* LoginViewController.swift */; };
 		554863DF2A73091B0022CD4F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554863DE2A73091B0022CD4F /* LoginViewModel.swift */; };
-		554863E22A73101E0022CD4F /* LoginFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554863E12A73101E0022CD4F /* LoginFactory.swift */; };
 		554863E42A7338740022CD4F /* PersonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554863E32A7338740022CD4F /* PersonCollectionViewCell.swift */; };
+		55A7B0D12ACCC71100536CA6 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7B0D02ACCC71100536CA6 /* AuthCoordinator.swift */; };
+		55A7B0D62ACCD9FB00536CA6 /* MainViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7B0D52ACCD9FB00536CA6 /* MainViewControllerFactory.swift */; };
+		55A7B0D92ACCDCEC00536CA6 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7B0D82ACCDCEC00536CA6 /* NavigationCoordinator.swift */; };
+		55A7B0DC2ACCDFE100536CA6 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7B0DB2ACCDFE100536CA6 /* CoordinatorFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +45,6 @@
 		048C3EBD2A3094A2008B0BED /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		04A9A7E22A31C95A00EEDED5 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		04CF01FD2A385F4500E8481D /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
-		04CF01FF2A38610F00E8481D /* AuthanticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthanticationViewController.swift; sourceTree = "<group>"; };
 		04CF02072A3890D700E8481D /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
 		04D52A8C2A333876007B5F35 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		04F5ACFC2A39146D00185808 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -59,8 +60,11 @@
 		04F5AD092A39198C00185808 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
 		554863DC2A7305B90022CD4F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		554863DE2A73091B0022CD4F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		554863E12A73101E0022CD4F /* LoginFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFactory.swift; sourceTree = "<group>"; };
 		554863E32A7338740022CD4F /* PersonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCollectionViewCell.swift; sourceTree = "<group>"; };
+		55A7B0D02ACCC71100536CA6 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		55A7B0D52ACCD9FB00536CA6 /* MainViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerFactory.swift; sourceTree = "<group>"; };
+		55A7B0D82ACCDCEC00536CA6 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		55A7B0DB2ACCDFE100536CA6 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +152,6 @@
 				554863E02A730FEA0022CD4F /* Login */,
 				04F5ACFA2A38DC9900185808 /* Dashboard */,
 				048C3EAF2A309366008B0BED /* Main */,
-				04CF01FF2A38610F00E8481D /* AuthanticationViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -165,6 +168,8 @@
 		048C3EA92A3092E2008B0BED /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				55A7B0DA2ACCDFCA00536CA6 /* Factory */,
+				55A7B0D72ACCDCD100536CA6 /* Protocols */,
 				04D52A8B2A333866007B5F35 /* Reachability */,
 				04601B1D2A30A86D008B13AC /* Coordinator */,
 				048C3EBC2A30944C008B0BED /* Extensions */,
@@ -216,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				048C3E912A309257008B0BED /* MainViewController.swift */,
+				55A7B0D52ACCD9FB00536CA6 /* MainViewControllerFactory.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -296,11 +302,35 @@
 		554863E02A730FEA0022CD4F /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				55A7B0CF2ACCAA5800536CA6 /* Cells */,
 				554863DC2A7305B90022CD4F /* LoginViewController.swift */,
-				554863E12A73101E0022CD4F /* LoginFactory.swift */,
-				554863E32A7338740022CD4F /* PersonCollectionViewCell.swift */,
+				55A7B0D02ACCC71100536CA6 /* AuthCoordinator.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		55A7B0CF2ACCAA5800536CA6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				554863E32A7338740022CD4F /* PersonCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		55A7B0D72ACCDCD100536CA6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				55A7B0D82ACCDCEC00536CA6 /* NavigationCoordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		55A7B0DA2ACCDFCA00536CA6 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				55A7B0DB2ACCDFE100536CA6 /* CoordinatorFactory.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,7 +360,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					048C3E892A309256008B0BED = {
@@ -375,11 +405,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CF02002A38610F00E8481D /* AuthanticationViewController.swift in Sources */,
 				04CF02082A3890D700E8481D /* TokenModel.swift in Sources */,
+				55A7B0D92ACCDCEC00536CA6 /* NavigationCoordinator.swift in Sources */,
 				04D52A8D2A333876007B5F35 /* Reachability.swift in Sources */,
 				04CF01FE2A385F4500E8481D /* AuthManager.swift in Sources */,
+				55A7B0D12ACCC71100536CA6 /* AuthCoordinator.swift in Sources */,
+				55A7B0DC2ACCDFE100536CA6 /* CoordinatorFactory.swift in Sources */,
 				048C3EBE2A3094A2008B0BED /* UIButtonExtension.swift in Sources */,
+				55A7B0D62ACCD9FB00536CA6 /* MainViewControllerFactory.swift in Sources */,
 				04601B222A30E76D008B13AC /* GeneralInfoViewModel.swift in Sources */,
 				554863DF2A73091B0022CD4F /* LoginViewModel.swift in Sources */,
 				554863E42A7338740022CD4F /* PersonCollectionViewCell.swift in Sources */,
@@ -390,7 +423,6 @@
 				04601B1F2A30AE73008B13AC /* Coordinator.swift in Sources */,
 				554863DD2A7305B90022CD4F /* LoginViewController.swift in Sources */,
 				04A9A7E32A31C95A00EEDED5 /* ApiClient.swift in Sources */,
-				554863E22A73101E0022CD4F /* LoginFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

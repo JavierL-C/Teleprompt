@@ -20,7 +20,7 @@ class MainViewController: UIViewController {
     }
     
     func navigateToOtherViewController(vc:UIViewController) {
-        coordinator?.navigateToViewController(vc)
+//        coordinator?.navigateToViewController(vc)
     }
 
  

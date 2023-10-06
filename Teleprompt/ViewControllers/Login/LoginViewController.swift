@@ -26,8 +26,6 @@ class LoginViewController: UIViewController {
         return button
     }()
     
-    weak var delegate: Coordinator?
-    
     init(viewModel: LoginViewModelProtocol) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
